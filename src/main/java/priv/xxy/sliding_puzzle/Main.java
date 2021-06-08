@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        Grid grid = new Grid(4);
+        Grid grid = new Grid(Integer.parseInt(args[0]));
         grid.setDefault();
         grid.display();
         while (true) {
